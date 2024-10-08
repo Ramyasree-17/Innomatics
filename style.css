@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html,body{
+    overflow: scroll;
+}
+.nav1{
+    background-color: red;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-navbarr{
+    width: 50%;
+    display: flex;
+    margin-left: 20px;
+    color:white;
+    font-size: 17px;
+    font-weight:500;
+    align-self: center;
+}
+
+#phn{
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 2px solid white;
+    
+
+}
+button i{
+    color: red;
+}
+.right-navbarr{
+    width: 50%;
+    align-self: center;
+    color: white;
+    font-size: 17px;
+    align-items: center;
+}
+.right-nav span{
+    font-weight: 500;
+}
+/*----seocnd nav-------------*/
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+}
+#pay{
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.custom-height {
+    height: 600px; /* Set your desired height */
+    
+  }
+  .custom-width{
+    width: 100%;
+    margin: 0 auto;
+  }
+ .left-content{
+    width: 45%;
+    margin-left: 50px;
+    text-align: justify;
+ }
+ .right-content{
+    width: 45%;
+    height: 600px;
+    margin-right: 50px;
+ }
+ #content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.right-content{
+    margin-top: 60px;
+
+
+}
+.right-content i{
+    color: red;
+}
+#btn{
+   padding: 5px 10px;
+   border-radius: 10px;
+   background-color: red;
+   border: none;
+   color: aliceblue;
+}
+#courses{
+    margin-top: 50px;
+    width: 90%;
+    margin: 50px auto;
+    
+}
+.course-content{
+    background-color: black;
+   padding: 10px;
+}
+#classes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#title{
+    padding-top: 20px;
+    margin: 0 30px;
+}
+#footer{
+    background-color: black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.black-logo img{
+    width: 400px;
+    height: 100px;
+    margin-left: 50px;
+
+}
+.black-logo p{
+    color: aliceblue;
+    width:80%;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width:200px;
+    margin: 0 auto;
+}
+
+
+  @media (max-width:900px){
+    .left-navbarr{
+        width:90%;
+        display: flex;
+        margin-left: 10px;
+        color:white;
+        font-size: 15px;
+        font-weight:500;
+        align-self: center;
+        margin: 0 auto;
+
+    }
+    
+#phn{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 2px solid white;
+    
+
+}
+.nav1{
+    background-color: red;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.right-navbarr{
+    width: 90%;
+    align-self: center;
+    color: white;
+    font-size: 17px;
+    align-self: center;
+    margin: 0 auto;
+    
+}
+.logo img{
+    height: 60px;
+    width:300px;
+}
+.custom-height {
+    height: 500px; /* Set your desired height */
+    
+  }
+  #content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.custom-width{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .left-content{
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    
+ 
+ }
+ #custom-grid .col-md-6 {
+    flex: 0 0 50%; /* Set boxes to 50% width (2 columns) */
+    max-width: 50%; /* Max width of each box is 50% */
+  }
+
+  }
+
+
+
+
+
+
+
+
+  @media(min-width:300px)  and (max-width:600px){
+    .left-navbarr{
+        width:90%;
+        display: flex;
+        margin-left: 5px;
+        color:white;
+        font-size: 15px;
+        font-weight:500;
+        align-self: center;
+        margin: 0 auto;
+
+    }
+    
+#phn{
+    margin-left: 5px;
+    padding:5px 3px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border: 2px solid white;
+    
+
+}
+.nav1{
+    background-color: red;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.right-navbarr{
+    width: 90%;
+    align-self: center;
+    color: white;
+    font-size: 17px;
+    align-self: center;
+    margin: 0 auto;
+    
+}
+.logo img{
+    height: 60px;
+    width:300px;
+}
+.custom-height {
+    height: 300px; /* Set your desired height */
+    
+  }
+  .custom-width{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .left-content{
+    width: 100%;
+    text-align: justify;
+ 
+ }
+ .right-content{
+    width: 100%;
+    height: 600px;
+    margin-right: 50px;
+ }
+ #custom-grid .col-md-6 {
+    flex: 0 0 100%; /* Set each box to 100% width */
+    max-width: 100%; /* Max width of each box is 100% */
+  }
+
+  }
